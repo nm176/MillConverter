@@ -1,0 +1,536 @@
+-1: onMachine()
+  Post Engine Version = 4.5689.0
+  Program Name = Swarf dump
+  Program Comment = test for 5 axis machine programming
+-1: onOpen()
+0: onParameter('product-id', 'inventorhsm')
+1: onParameter('generated-by', 'Inventor CAM Ultimate 8.1.2.21785')
+2: onParameter('generated-at', 'Wednesday, November 4, 2020 4:36:32 PM')
+3: onParameter('hostname', 'MarlonsPC')
+4: onParameter('username', 'deana')
+5: onParameter('document-path', 'C:\Users\deana\Desktop\Marlon's files\Inventor\Swarf\Swarf Assembly.iam')
+6: onParameter('inventor:Title', '')
+7: onParameter('inventor:Subject', '')
+8: onParameter('inventor:Author', 'deana')
+9: onParameter('inventor:Keywords', '')
+10: onParameter('inventor:Comments', '')
+11: onParameter('inventor:Last Saved By', '')
+12: onParameter('inventor:Revision Number', '')
+13: onParameter('inventor:Category', '')
+14: onParameter('inventor:Manager', '')
+15: onParameter('inventor:Company', '')
+16: onParameter('inventor:Part Number', 'Swarf Assembly')
+17: onParameter('inventor:Project', '')
+18: onParameter('inventor:Cost Center', '')
+19: onParameter('inventor:Checked By', '')
+20: onParameter('inventor:Engr Approved By', '')
+21: onParameter('inventor:User Status', '')
+22: onParameter('inventor:Material', '')
+23: onParameter('inventor:Part Property Revision Id', '{1E8EA766-D3EB-43DA-AE76-F824A61C1941}')
+24: onParameter('inventor:Catalog Web Link', '')
+25: onParameter('inventor:Description', '')
+26: onParameter('inventor:Vendor', '')
+27: onParameter('inventor:Document SubType', '{E60F81E1-49B3-11D0-93C3-7E0706000000}')
+28: onParameter('inventor:Document SubType Name', 'Assembly')
+29: onParameter('inventor:Mfg Approved By', '')
+30: onParameter('inventor:Standard', '')
+31: onParameter('inventor:Design Status', 1)
+32: onParameter('inventor:Designer', 'deana')
+33: onParameter('inventor:Engineer', '')
+34: onParameter('inventor:Authority', '')
+35: onParameter('inventor:Parameterized Template', 0)
+36: onParameter('inventor:Template Row', '')
+37: onParameter('inventor:External Property Revision Id', '{4D29B490-49B2-11D0-93C3-7E0706000000}')
+38: onParameter('inventor:Standard Revision', '')
+39: onParameter('inventor:Manufacturer', '')
+40: onParameter('inventor:Standards Organization', '')
+41: onParameter('inventor:Language', '')
+42: onParameter('inventor:Defer Updates', 0)
+43: onParameter('inventor:Size Designation', '')
+44: onParameter('inventor:Categories', '')
+45: onParameter('inventor:Stock Number', '')
+46: onParameter('inventor:Weld Material', '')
+47: onParameter('inventor:Mass', 0)
+48: onParameter('inventor:SurfaceArea', 0)
+49: onParameter('inventor:Volume', 0)
+50: onParameter('inventor:Density', 0)
+51: onParameter('inventor:Valid MassProps', 1)
+52: onParameter('inventor:Flat Pattern Width', 0)
+53: onParameter('inventor:Flat Pattern Length', 0)
+54: onParameter('inventor:Flat Pattern Area', 0)
+55: onParameter('inventor:Sheet Metal Rule', '')
+56: onParameter('inventor:Last Updated With', '2020.3 (Build 243373010, 373A)')
+57: onParameter('inventor:Sheet Metal Width', '')
+58: onParameter('inventor:Sheet Metal Length', '')
+59: onParameter('inventor:Sheet Metal Area', '')
+60: onParameter('inventor:Material Identifier', '')
+61: onParameter('inventor:Appearance', '')
+62: onParameter('inventor:Flat Pattern Defer Update', 0)
+63: onParameter('leads-supported', 1)
+64: onParameter('job-description', 'Setup3')
+65: onParameter('machine-id', '2')
+66: onParameter('machine-config', '<?xml version="1.0" encoding="UTF-16" standalone="no" ?><machine xmlns="http://www.hsmworks.com/xml/2009/machine" version="1.0"><vendor>DDD</vendor><model>DDD</model><description>DDDmill 5 axis</description><control>mach4</control><machining jet="no" milling="yes" turning="no" wire="no"/><dimensions depth="1500mm" height="1000mm" weight="200kg" width="1500mm"/><capacities depth="1000mm" height="600mm" weight="200kg" width="1000mm"/><tooling maximumToolDiameter="0mm" maximumToolLength="0mm" maximumToolWeight="0kg" numberOfTools="100" toolChanger="no" toolPreload="no"/><machiningTime ratio="1" toolChangeTime="15s"/><coolant options=""/><capabilities maximumFeedrate="2000mm/min" workOffsets="100"/><spindle axis="0 0 1" maximumSpeed="20000rpm"/><post><postProcessor>c:/users/deana/ddd/settings/fusion/mach3mill x axis a and b.cps</postProcessor><setupSheet></setupSheet></post><simulation retractOnIndexing="yes" shortestAngularRotation="yes" wcs="0mm 0mm 0mm"/><multiAxis adjust="yes" angle="10deg" cone="20deg" linearizationTolerance="0.04mm" method="off" reconfigure="yes" tolerance="0.04mm"/><axis id="X" link="table" maximumFeed="1000mm/min" range="0mm 0mm" rapidFeed="1000mm/min" tcp="no"/><axis id="Y" link="table" maximumFeed="1000mm/min" range="0mm 0mm" rapidFeed="1000mm/min" tcp="no"/><axis id="Z" link="table" maximumFeed="700mm/min" range="0mm 0mm" rapidFeed="700mm/min" tcp="no"/><axis actuator="rotational" axis="0 1 0" coordinate="X" id="U" link="head" maximumFeed="21600deg/min" preference="positive" range="-120deg 120deg" tcp="yes"/><axis actuator="rotational" axis="0 0 1" coordinate="Y" id="V" link="head" maximumFeed="21600deg/min" range="-270deg 270deg" tcp="yes"/></machine>')
+67: onParameter('stock-type', 'box')
+69: onParameter('stock', '((-16.1351, -10.541, -26.416), (16.1351, 10.541, 0))')
+71: onParameter('stock-lower-x', -0.6352417057775008)
+73: onParameter('stock-lower-y', -0.41500000000000004)
+75: onParameter('stock-lower-z', -1.04)
+77: onParameter('stock-upper-x', 0.6352417057775008)
+79: onParameter('stock-upper-y', 0.41500000000000004)
+81: onParameter('stock-upper-z', 0)
+83: onParameter('part-lower-x', -0.595241705777501)
+85: onParameter('part-lower-y', -0.37500000000000006)
+87: onParameter('part-lower-z', -1.04)
+89: onParameter('part-upper-x', 0.5952417057775009)
+91: onParameter('part-upper-y', 0.37500000000000006)
+93: onParameter('part-upper-z', -0.04)
+97: onParameter('notes', '')
+98: onParameter('operation-strategy', 'swarf5d')
+99: onParameter('operation-comment', 'Swarf2')
+100: onParameter('autodeskcam:operation-id', 6)
+101: onParameter('leads-supported', 1)
+102: onParameter('autodeskcam:path', 'Setups\Setup3\Swarf2')
+103: onParameter('operation:is2DStrategy', 0)
+104: onParameter('operation:is3DStrategy', 0)
+105: onParameter('operation:isRoughingStrategy', 0)
+106: onParameter('operation:isFinishingStrategy', 1)
+107: onParameter('operation:isMillingStrategy', 1)
+108: onParameter('operation:isTurningStrategy', 0)
+109: onParameter('operation:isJetStrategy', 0)
+110: onParameter('operation:isAdditiveStrategy', 0)
+111: onParameter('operation:isProbingStrategy', 0)
+112: onParameter('operation:isInspectionStrategy', 0)
+113: onParameter('operation:isDrillingStrategy', 0)
+114: onParameter('operation:isHoleMillingStrategy', 0)
+115: onParameter('operation:isThreadStrategy', 0)
+116: onParameter('operation:isSamplingStrategy', 0)
+117: onParameter('operation:isRotaryStrategy', 0)
+118: onParameter('operation:isSecondarySpindleStrategy', 0)
+119: onParameter('operation:isSurfaceStrategy', 1)
+120: onParameter('operation:isCheckSurfaceStrategy', 0)
+121: onParameter('operation:isMultiAxisStrategy', 1)
+122: onParameter('operation:advancedMode', 0)
+123: onParameter('operation:betaMode', 0)
+124: onParameter('operation:alphaMode', 0)
+125: onParameter('operation:isXpress', 0)
+126: onParameter('operation:licenseMultiaxis', 1)
+127: onParameter('operation:license3D', 1)
+128: onParameter('operation:metric', 0)
+129: onParameter('operation:isAssemblyDocument', 1)
+130: onParameter('operation:context', 'operation')
+131: onParameter('operation:strategy', 'swarf5d')
+132: onParameter('operation:operation_description', '')
+133: onParameter('operation:tool_type', 'flat end mill')
+134: onParameter('operation:undercut', 0)
+135: onParameter('operation:tool_isTurning', 0)
+136: onParameter('operation:tool_isMill', 1)
+137: onParameter('operation:tool_isDrill', 0)
+138: onParameter('operation:tool_taperedType', 'tapered_bull_nose')
+139: onParameter('operation:tool_unit', 'inches')
+140: onParameter('operation:tool_number', 4)
+141: onParameter('operation:tool_diameterOffset', 4)
+142: onParameter('operation:tool_lengthOffset', 4)
+143: onParameter('operation:tool_compensationOffset', 4)
+144: onParameter('operation:tool_turret', 0)
+145: onParameter('operation:tool_manualToolChange', 0)
+146: onParameter('operation:tool_breakControl', 0)
+147: onParameter('operation:tool_live', 1)
+148: onParameter('operation:tool_coolant', 'flood')
+149: onParameter('operation:tool_material', 'unspecified')
+150: onParameter('operation:tool_description', '1/8" Flat Endmill')
+151: onParameter('operation:tool_comment', '')
+152: onParameter('operation:tool_vendor', '')
+153: onParameter('operation:tool_productId', '')
+155: onParameter('operation:tool_diameter', 0.12499999999999999)
+157: onParameter('operation:tool_tipDiameter', 0.12499999999999999)
+159: onParameter('operation:tool_tipOffset', 0)
+161: onParameter('operation:tool_cornerRadius', 0)
+163: onParameter('operation:tool_taperAngle', 0)
+165: onParameter('operation:tool_tipAngle', 0)
+167: onParameter('operation:tool_threadProfileAngle', 0)
+169: onParameter('operation:tool_tipLength', 0)
+171: onParameter('operation:tool_fluteLength', 0.9999999999999999)
+173: onParameter('operation:tool_shoulderLength', 0.9999999999999999)
+175: onParameter('operation:tool_bodyLength', 1.25)
+177: onParameter('operation:tool_overallLength', 1.7499999999999998)
+179: onParameter('operation:tool_shaftDiameter', 0.12499999999999999)
+181: onParameter('operation:tool_segmentHeight', 0.06249999999999999)
+183: onParameter('operation:tool_segmentDiameterLower', 0.24999999999999997)
+185: onParameter('operation:tool_segmentDiameterUpper', 0.24999999999999997)
+187: onParameter('operation:tool_shaftSegmentHeight', 0.12500000000000003)
+189: onParameter('operation:tool_shaftSegmentDiameterLower', 0.12499999999999999)
+191: onParameter('operation:tool_shaftSegmentDiameterUpper', 0.12499999999999999)
+193: onParameter('operation:tool_threadPitch', 0)
+194: onParameter('operation:tool_numberOfTeeth', 0)
+195: onParameter('operation:tool_numberOfFlutes', 1)
+196: onParameter('operation:holder_attached', 0)
+197: onParameter('operation:holder_description', 'Maritool CAT40-ER32-2.35')
+198: onParameter('operation:holder_comment', '')
+199: onParameter('operation:holder_vendor', 'Maritool')
+200: onParameter('operation:holder_productId', 'CAT40-ER32-2.35')
+201: onParameter('operation:holder_productLink', '')
+202: onParameter('operation:holder_libraryName', '')
+203: onParameter('operation:tool_productLink', '')
+205: onParameter('operation:tool_spindleSpeed', 11999.1)
+207: onParameter('operation:tool_stockDiameter', 0.12499999999999999)
+209: onParameter('operation:tool_surfaceSpeed', 4712.03555121116)
+211: onParameter('operation:tool_rampSpindleSpeed', 12000)
+213: onParameter('operation:tool_feedCutting', 50.19220000000001)
+215: onParameter('operation:tool_feedPerTooth', 0.004182997058112692)
+217: onParameter('operation:tool_feedProbeLink', 120)
+219: onParameter('operation:tool_feedEntry', 50.19590000000001)
+221: onParameter('operation:tool_feedExit', 50.19590000000001)
+223: onParameter('operation:tool_feedProbeMeasure', 11.999999999999998)
+225: onParameter('operation:tool_feedRamp', 50.19590000000001)
+227: onParameter('operation:tool_feedPlunge', 16.7307)
+229: onParameter('operation:tool_feedPerRevolution', 0.0013943295747181035)
+231: onParameter('operation:tool_feedRetract', 16.7307)
+232: onParameter('operation:tool_clockwise', 1)
+233: onParameter('operation:featureOperationId', 'none')
+235: onParameter('operation:surfaceZHigh', -0.04)
+237: onParameter('operation:surfaceZLow', -0.7899999999999999)
+239: onParameter('operation:surfaceXLow', 0)
+241: onParameter('operation:surfaceXHigh', 1.0000000000000004)
+243: onParameter('operation:surfaceYLow', 0.04)
+245: onParameter('operation:surfaceYHigh', 1.230483411555002)
+247: onParameter('operation:stockZHigh', 0)
+249: onParameter('operation:stockZLow', -0.8299999999999998)
+251: onParameter('operation:stockXLow', 0)
+253: onParameter('operation:stockXHigh', 1.04)
+255: onParameter('operation:stockYLow', 0)
+257: onParameter('operation:stockYHigh', 1.2704834115550014)
+258: onParameter('operation:shaftAndHolderMode', 'dont care')
+259: onParameter('operation:useShaft', 0)
+261: onParameter('operation:shaftClearance', 0.04)
+262: onParameter('operation:useHolder', 0)
+264: onParameter('operation:holderClearance', 0.2)
+265: onParameter('operation:swarfMode', 'contours')
+266: onParameter('operation:swarfSelectionMode', 'surfaces')
+267: onParameter('operation:otherSide', 0)
+268: onParameter('operation:flipTopBottom', 0)
+269: onParameter('operation:automaticMode', 0)
+270: onParameter('operation:syncMode', 'by-entity')
+271: onParameter('operation:restrictTo4Axis', 0)
+272: onParameter('operation:restrictTo4AxisJobLine', 0)
+273: onParameter('operation:view_orientation_mode', 'axesZX')
+274: onParameter('operation:view_orientation_flipZ', 0)
+275: onParameter('operation:view_orientation_flipX', 1)
+276: onParameter('operation:view_orientation_flipY', 0)
+277: onParameter('operation:view_origin_mode', 'stockPoint')
+278: onParameter('operation:view_origin_boxPoint', 'top 1')
+280: onParameter('operation:view_turn_from_setup', 0)
+282: onParameter('operation:view_tilt_from_setup', 0)
+284: onParameter('operation:view_turn_from_recipe', 0)
+286: onParameter('operation:view_tilt_from_recipe', 0)
+287: onParameter('operation:includeSetupModel', 1)
+288: onParameter('operation:clearanceHeight_mode', 'from retract height')
+290: onParameter('operation:clearanceHeight_offset', 0.1)
+292: onParameter('operation:clearanceHeight_value', 0.2)
+294: onParameter('operation:zClearance', 0.2)
+296: onParameter('operation:relativeZClearance', 0.2)
+297: onParameter('operation:clearanceHeight_absolute', 1)
+298: onParameter('operation:retractHeight_mode', 'from stock top')
+300: onParameter('operation:retractHeight_offset', 0.1)
+302: onParameter('operation:retractHeight_value', 0.1)
+304: onParameter('operation:zRetract', 0.1)
+306: onParameter('operation:relativeZRetract', 0.1)
+307: onParameter('operation:retractHeight_absolute', 1)
+308: onParameter('operation:bottomHeight_mode', 'from surface bottom')
+310: onParameter('operation:bottomHeight_offset', 0)
+312: onParameter('operation:bottomHeight_value', -0.7899999999999999)
+313: onParameter('operation:bottomHeight_absolute', 1)
+315: onParameter('operation:tolerance', 0.0004)
+317: onParameter('operation:contourTolerance', 0.00008000000000000002)
+319: onParameter('operation:surfaceTolerance', 0)
+321: onParameter('operation:calculationTolerance', 0.0004)
+323: onParameter('operation:thinningTolerance', 0.000004)
+325: onParameter('operation:chainingTolerance', 0.0004)
+327: onParameter('operation:gougingTolerance', 0.0004)
+328: onParameter('operation:cuttingMode', 'single')
+330: onParameter('operation:toolOffset', 0)
+332: onParameter('operation:stockHeight', 0)
+333: onParameter('operation:zigZagMode', 6)
+335: onParameter('operation:maximumZigZagHeight', 0.95)
+337: onParameter('operation:maximumZigZagDistance', 0.625)
+338: onParameter('operation:jetGougeCheck', 0)
+339: onParameter('operation:doMultiplePasses', 0)
+340: onParameter('operation:numberOfStepovers', 0)
+342: onParameter('operation:stepover', 0)
+343: onParameter('operation:nullPass', 0)
+345: onParameter('operation:tangentialFragmentExtensionDistance', 0)
+346: onParameter('operation:bothWays', 0)
+347: onParameter('operation:manualStepdowns', 0)
+348: onParameter('operation:numberOfStepdowns', 1)
+350: onParameter('operation:maximumStepdown', 0)
+351: onParameter('operation:minimizeAxialMotion', 0)
+352: onParameter('operation:alongStock', 0)
+354: onParameter('operation:passOverlap', 0)
+356: onParameter('operation:sidewaysTilt', 0)
+358: onParameter('operation:fanDistance', 0.625)
+360: onParameter('operation:maximumSegmentLength', 0.19685039370078738)
+362: onParameter('operation:maximumToolAxisSweep', 5)
+364: onParameter('operation:stockToLeave', 0)
+366: onParameter('operation:verticalStockToLeave', 0)
+367: onParameter('operation:simpleStockToLeave', 0)
+369: onParameter('operation:reducedFeedChange', 25)
+371: onParameter('operation:reducedFeedRadius', 0)
+373: onParameter('operation:reducedFeedDistance', 0)
+375: onParameter('operation:reducedFeedrate', 12.548050000000002)
+376: onParameter('operation:reduceOnlyInnerCorners', 1)
+377: onParameter('operation:retractionPolicy', 'full')
+378: onParameter('operation:highFeedrateMode', 'disabled')
+380: onParameter('operation:highFeedrate', 50.19590000000001)
+381: onParameter('operation:allowRapidRetract', 1)
+383: onParameter('operation:safeDistance', 0.08)
+385: onParameter('operation:stayDownDistance', 0.625)
+386: onParameter('operation:doLeadIn', 1)
+388: onParameter('operation:entry_radius', 0.0125)
+390: onParameter('operation:entry_sweep', 90)
+392: onParameter('operation:entry_distance', 0)
+393: onParameter('operation:entry_perpendicular', 0)
+395: onParameter('operation:entry_verticalRadius', 0.0125)
+397: onParameter('operation:leadInRadius', 0.0125)
+399: onParameter('operation:leadInVerticalRadius', 0.0125)
+400: onParameter('operation:doLeadOut', 1)
+401: onParameter('operation:exit_sameAsEntry', 1)
+403: onParameter('operation:exit_radius', 0.0125)
+405: onParameter('operation:exit_sweep', 90)
+407: onParameter('operation:exit_distance', 0)
+408: onParameter('operation:exit_perpendicular', 0)
+410: onParameter('operation:exit_verticalRadius', 0.0125)
+412: onParameter('operation:leadOutRadius', 0.0125)
+414: onParameter('operation:leadOutVerticalRadius', 0.0125)
+416: onParameter('operation:rampAngle', 2)
+417: onParameter('operation:use_tool_stepdown', 0)
+419: onParameter('operation:tool_stepdown', 0.04)
+421: onParameter('operation:tool_finishingStepdown', 0.008)
+422: onParameter('operation:use_tool_stepover', 0)
+424: onParameter('operation:tool_stepover', 0.06249999999999999)
+426: onParameter('operation:tool_finishingStepover', 0.0125)
+427: onParameter('operation:tool_rampType', 'helix')
+429: onParameter('operation:tool_rampAngle', 2)
+431: onParameter('movement:lead_in', 1274.9758600000002)
+432: onParameter('movement:cutting', 1274.8818800000001)
+433: onParameter('movement:lead_out', 1274.9758600000002)
+434: onParameter('movement:transition', 1274.8818800000001)
+435: onParameter('movement:direct', 1274.9758600000002)
+436: onParameter('movement:helix_ramp', 1274.9758600000002)
+437: onParameter('movement:profile_ramp', 1274.9758600000002)
+438: onParameter('movement:zigzag_ramp', 1274.9758600000002)
+439: onParameter('movement:ramp', 1274.9758600000002)
+440: onParameter('movement:plunge', 424.95977999999997)
+441: onParameter('movement:predrill', 1274.8818800000001)
+442: onParameter('movement:extended', 1274.8818800000001)
+443: onParameter('movement:reduced', 1274.8818800000001)
+444: onParameter('movement:finish_cutting', 1274.8818800000001)
+445: onSection()
+  currentSection.unit=1
+  currentSection.workOrigin=(0, 0, 0)
+  currentSection.workPlane=[[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+  currentSection.wcsOrigin=(0, 0, 0)
+  currentSection.wcsPlane=[[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+  currentSection.workOffset=0
+  currentSection.probeWorkOffset=0
+  currentSection.wcs='0'
+  currentSection.wcsIndex=0
+  currentSection.dynamicWCSOrigin=(0, 0, 0)
+  currentSection.dynamicWCSPlane=[[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+  currentSection.dynamicWorkOffset=0
+  currentSection.fcsOrigin=(0.330066, 0.0778904, -0.54)
+  currentSection.fcsPlane=[[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+  currentSection.modelOrigin=(0.330066, 0.0778904, -0.54)
+  currentSection.modelPlane=[[1, -0, 0], [0, 1, -0], [0, 0, 1]]
+  currentSection.type=0 (TYPE_MILLING)
+  currentSection.quality=0 ({AUTO})
+  currentSection.jetMode=0 (JET_MODE_THROUGH)
+  currentSection.tailstock=false
+  currentSection.partCatcher=false
+  currentSection.spindle=0
+  currentSection.feedMode=0
+  currentSection.toolOrientation=0
+  currentSection.properties=[object Object]
+  currentSection.strategy='swarf5d' (STRATEGY_FINISHING STRATEGY_MILLING STRATEGY_SURFACE STRATEGY_MULTIAXIS )
+  tool.toolId='1'
+  tool.number=4
+  tool.diameterOffset=4
+  tool.lengthOffset=4
+  tool.secondaryLengthOffset=0
+  tool.turningTool=false
+  tool.jetTool=false
+  tool.holderNumber=0
+  tool.surfaceSpeed=0
+  tool.maximumSpindleSpeed=0
+  tool.spindleRPM=11999.1
+  tool.rampingSpindleRPM=12000
+  tool.clockwise=true
+  tool.numberOfFlutes=1
+  tool.threadPitch=0
+  tool.coolant=1
+  tool.material=0
+  tool.description='1/8" Flat Endmill'
+  tool.comment=''
+  tool.vendor=''
+  tool.productId=''
+  tool.holderDescription='Maritool CAT40-ER32-2.35'
+  tool.holderComment=''
+  tool.holderVendor='Maritool'
+  tool.holderProductId='CAT40-ER32-2.35'
+  tool.aggregateId=''
+  tool.unit=0
+  tool.type=5 (TOOL_MILLING_END_FLAT, flat end mill)
+  tool.diameter=0.12499999999999999
+  tool.tipDiameter=0
+  tool.cornerRadius=0
+  tool.taperAngle=0
+  tool.fluteLength=0.9999999999999999
+  tool.shoulderLength=0.9999999999999999
+  tool.shaftDiameter=0.12499999999999999
+  tool.bodyLength=1.25
+  tool.overallLength=1.7499999999999998
+  tool.shaft=[object Shaft]
+  tool.jetDiameter=0
+  tool.jetDistance=0
+  tool.holderTipDiameter=1.4999999399260273
+  tool.holderDiameter=2.502000012735682
+  tool.holderLength=2.473999989314342
+  tool.holder=[object Holder]
+  tool.boringBarOrientation=0
+  tool.compensationOffset=0
+  tool.secondaryCompensationOffset=0
+  tool.turret=0
+  tool.insertType=3 (TURNING_INSERT_ISO_C)
+  tool.holderType=0 (TURNING_INSERT_USER_DEFINED)
+  tool.compensationMode=0 (TOOL_COMPENSATION_INSERT_CENTER)
+  tool.inscribedCircleDiameter=0
+  tool.edgeLength=0
+  tool.noseRadius=0
+  tool.reliefAngle=0
+  tool.thickness=0
+  tool.grooveWidth=0
+  tool.crossSection=''
+  tool.tolerance='M'
+  tool.pitch=0
+  tool.hand='R'
+  tool.clamping=''
+  tool.manualToolChange=false
+  tool.breakControl=false
+  tool.liveTool=true
+  tool.tappingFeedrate=0
+  tool.holder[0] H=0 D=1.4999999399260273
+  tool.holder[1] H=0.14800000378466027 D=1.9699999291127122
+  tool.holder[2] H=0.8359999919500877 D=1.9699999291127122
+  tool.holder[3] H=0 D=1.5699999351201095
+  tool.holder[4] H=0.17599999435304656 D=1.5699999351201095
+  tool.holder[5] H=0.09000000052564726 D=1.7500000300369862
+  tool.holder[6] H=0.4250000030036986 D=1.7500000300369862
+  tool.holder[7] H=0.04999999924907534 D=1.85000006608137
+  tool.holder[8] H=0 D=2.4419999310350793
+  tool.holder[9] H=0.03000000095742894 D=2.502000012735682
+  tool.holder[10] H=0.14500000345425343 D=2.502000012735682
+  tool.holder[11] H=0.07899999618530273 D=2.2150000624769315
+  tool.holder[12] H=0.11800000048059178 D=2.2150000624769315
+  tool.holder[13] H=0.07899999618530273 D=2.502000012735682
+  tool.holder[14] H=0.14300000010512945 D=2.502000012735682
+  tool.holder[15] H=0.03000000095742894 D=2.4419999310350793
+  tool.holder[16] H=0 D=1.7500000300369862
+  tool.holder[17] H=0.12499999812268835 D=1.7500000300369862
+  STATE position=[0.032039, 0.615, -0.090798]
+  STATE spindleSpeed=11999.1
+  STATE radiusCompensation=RADIUS_COMPENSATION_OFF // off
+447: onRapid5D(0.03203861356720211, 0.6150000067207757, -0.09079831791674997, 0.027584274411077993, 0.9700388620131926, -0.24137877700693658)
+449: onRapid5D(0.03203861356720211, 0.4523284393032705, -0.09079831791674997, 0.027584274411077993, 0.9700388620131926, -0.24137877700693658)
+451: onMovement(MOVEMENT_LEAD_IN /*lead in*/)
+451: onLinear5D(0.026963038707342672, 0.2738407700080571, -0.046384428429791305, 0.027584274411077993, 0.9700388620131926, -0.24137877700693658, 50.19589882197342, 2)
+453: onLinear5D(0.021887538939949096, 0.09535308428636687, -0.0019706140352985053, 0.027584274411077993, 0.9700388620131926, -0.24137877700693658, 50.19589882197342, 2)
+455: onLinear5D(0.01681203917255552, -0.0831345732756487, 0.0424432003591943, 0.027584274411077993, 0.9700388620131926, -0.24137877700693658, 50.19589882197342, 2)
+457: onLinear5D(0.016291423106756735, -0.0891437727635301, 0.042485177047609346, 0.027584274411077993, 0.9700388620131926, -0.24137877700693658, 50.19589882197342, 2)
+459: onLinear5D(0.015173671752449096, -0.09441552669044555, 0.039775540509561856, 0.027584274411077993, 0.9700388620131926, -0.24137877700693658, 50.19589882197342, 2)
+461: onLinear5D(0.013719130688764918, -0.09772237360946776, 0.03494521764319713, 0.027584274411077993, 0.9700388620131926, -0.24137877700693658, 50.19589882197342, 2)
+463: onLinear5D(0.01250015469047967, -0.09934868868880384, 0.03047699064720334, 0.022244989486658123, 0.9648987483734583, -0.26167836332045524, 50.19589882197342, 2)
+465: onLinear5D(0.011548658055583323, -0.10098472824246864, 0.025981880548432118, 0.016400523082875533, 0.9593078259588533, -0.2818856468440817, 50.19589882197342, 2)
+467: onLinear5D(0.008839021517535833, -0.10237172363311287, 0.02217116318349763, 0.013655264185272983, 0.9528172789920776, -0.3032371458350114, 50.19589882197342, 2)
+469: onLinear5D(0.004783727991299366, -0.10329847730050876, 0.019624927851158804, 0.013290333727896352, 0.9450250386230019, -0.3267277818077232, 50.19589882197342, 2)
+471: onLinear5D(1.877311646468996e-7, -0.10362392804754061, 0.018730801860178548, -9.936397827346749e-7, 0.9396926717130951, -0.3420200034028974, 50.19589882197342, 2)
+473: onMovement(MOVEMENT_CUTTING /*cutting*/)
+473: onLinear5D(-0.1488102514912763, -0.10362392804754061, 0.018730801860178548, 0.08229277862363964, 0.9365054180463347, -0.34085994272759657, 50.192198265255904, 2)
+475: onLinear5D(-0.2976206907137172, -0.10362392804754061, 0.018730801860178548, 0.16402830350515973, 0.9269651268926811, -0.3373875652333007, 50.192198265255904, 2)
+477: onLinear5D(-0.44643111116304174, -0.10362392804754061, 0.018730801860178548, 0.24465108091595128, 0.9111365144610383, -0.331626447411009, 50.192198265255904, 2)
+479: onLinear5D(-0.5952415456922036, -0.10362392804754061, 0.018730801860178548, 0.32361421555756686, 0.8891269720334416, -0.3236156162667436, 50.192198265255904, 2)
+481: onLinear5D(-0.6074332533858893, -0.10016479360775685, 0.01604301722969596, 0.32361421555756686, 0.8891269720334416, -0.3236156162667436, 50.192198265255904, 2)
+483: onLinear5D(-0.6191011582772563, -0.09777272310782605, 0.010947392681452233, 0.32361421555756686, 0.8891269720334416, -0.3236156162667436, 50.192198265255904, 2)
+485: onLinear5D(-0.6297439635973276, -0.09655040549481009, 0.003662897845891517, 0.32361421555756686, 0.8891269720334416, -0.3236156162667436, 50.192198265255904, 2)
+487: onLinear5D(-0.6389044119617132, -0.09655040549481009, -0.005497556971752737, 0.32361421555756686, 0.8891269720334416, -0.3236156162667436, 50.192198265255904, 2)
+489: onLinear5D(-0.6461889349569486, -0.09777276065405897, -0.01614041215791477, 0.32361421555756686, 0.8891269720334416, -0.3236156162667436, 50.192198265255904, 2)
+491: onLinear5D(-0.6512845630251517, -0.1001648687002227, -0.027808279503048875, 0.32361421555756686, 0.8891269720334416, -0.3236156162667436, 50.192198265255904, 2)
+493: onLinear5D(-0.6539723664287507, -0.10362400314000647, -0.039999991890013686, 0.32361421555756686, 0.8891269720334416, -0.3236156162667436, 50.192198265255904, 2)
+495: onLinear5D(-0.6539723664287507, -0.10362400314000647, -0.1309090336476724, 0.3316033493516817, 0.911077085169825, -0.24490358016411728, 50.192198265255904, 2)
+497: onLinear5D(-0.6539723664287507, -0.10362400314000647, -0.22181815049779696, 0.3373571006535858, 0.9268854173320904, -0.16454060221028494, 50.192198265255904, 2)
+499: onLinear5D(-0.6539723664287507, -0.10362400314000647, -0.31272726734792156, 0.3408366446062282, 0.9364454162111903, -0.08306843052940341, 50.192198265255904, 2)
+501: onLinear5D(-0.6539723664287507, -0.10362400314000647, -0.40363630910558024, 0.34201852311431535, 0.939692639109497, -0.0010362674033417452, 50.192198265255904, 2)
+503: onLinear5D(-0.6539723664287507, -0.10362400314000647, -0.49454542595570483, 0.3408947794897352, 0.9366051903069946, 0.08100288147123808, 50.192198265255904, 2)
+505: onLinear5D(-0.6539723664287507, -0.10362400314000647, -0.5854545052595964, 0.33747299998331537, 0.9272038797232985, 0.1624959682832911, 50.192198265255904, 2)
+507: onLinear5D(-0.6539723664287507, -0.10362400314000647, -0.676363622109721, 0.33177626377031205, 0.9115520782770431, 0.24289363801346384, 50.192198265255904, 2)
+509: onLinear5D(-0.6539723664287507, -0.10362400314000647, -0.7672727014136127, 0.3238429170432067, 0.8897553199775201, 0.3216539066335858, 50.192198265255904, 2)
+511: onLinear5D(-0.6539723664287507, -0.10362400314000647, -0.8581817994906208, 0.31372648272115466, 0.8619605246366538, 0.39824583865687446, 50.192198265255904, 2)
+513: onLinear5D(-0.6539723664287507, -0.10362400314000647, -0.9490908881810707, 0.3014951588562774, 0.8283550580579002, 0.4721531181471968, 50.192198265255904, 2)
+515: onLinear5D(-0.6539723664287507, -0.10362400314000647, -1.0399999768715207, 0.2872313820876415, 0.7891654868796691, 0.5428774884465166, 50.192198265255904, 2)
+517: onLinear5D(-0.6505757652399108, -0.09780963105479563, -1.0502492806573551, 0.2872313820876415, 0.7891654868796691, 0.5428774884465166, 50.192198265255904, 2)
+519: onLinear5D(-0.6450487761281607, -0.09304208548988883, -1.0601039805750208, 0.2872313820876415, 0.7891654868796691, 0.5428774884465166, 50.192198265255904, 2)
+521: onLinear5D(-0.6376041897286581, -0.08950496752431074, -1.0691846707674462, 0.2872313820876415, 0.7891654868796691, 0.5428774884465166, 50.192198265255904, 2)
+523: onLinear5D(-0.6285286254770174, -0.08733441979866328, -1.0771417383133897, 0.2872313820876415, 0.7891654868796691, 0.5428774884465166, 50.192198265255904, 2)
+525: onLinear5D(-0.6181714959501281, -0.08661402022744727, -1.0836688364584615, 0.2872313820876415, 0.7891654868796691, 0.5428774884465166, 50.192198265255904, 2)
+527: onLinear5D(-0.6069315559282078, -0.08737147793056457, -1.088514661225747, 0.2872313820876415, 0.7891654868796691, 0.5428774884465166, 50.192198265255904, 2)
+529: onLinear5D(-0.5952415456922036, -0.08957765703126201, -1.0914926594636571, 0.2872313820876415, 0.7891654868796691, 0.5428774884465166, 50.192198265255904, 2)
+531: onLinear5D(-0.4251724716246597, -0.08957765703126201, -1.0914926594636571, 0.20659764615163795, 0.806108434796764, 0.5545327798733941, 50.192198265255904, 2)
+533: onLinear5D(-0.25510341163695327, -0.08957765703126201, -1.0914926594636571, 0.12453326967982653, 0.8174693241168466, 0.5623480851490449, 50.192198265255904, 2)
+535: onLinear5D(-0.08503433287613035, -0.08957765703126201, -1.0914926594636571, 0.04160653106196811, 0.8231694800190134, 0.5662692855331436, 50.192198265255904, 2)
+537: onLinear5D(0.08503474588469258, -0.08957765703126201, -1.0914926594636571, -0.04160831442833962, 0.8231693996868402, 0.5662692712743993, 50.192198265255904, 2)
+539: onLinear5D(0.25510378709928255, -0.08957765703126201, -1.0914926594636571, -0.1245350346344847, 0.8174691398349668, 0.5623479621782826, 50.192198265255904, 2)
+541: onLinear5D(0.42517282831387254, -0.08957765703126201, -1.0914926594636571, -0.20659938529149133, 0.8061081200112377, 0.5545325895284478, 50.192198265255904, 2)
+543: onLinear5D(0.5952419446209284, -0.08957765703126201, -1.0914926594636571, -0.28723308171753537, 0.7891650721131254, 0.5428771921196665, 50.192198265255904, 2)
+545: onLinear5D(0.606931889151025, -0.08737147793056457, -1.0885146565324677, -0.28723308171753537, 0.7891650721131254, 0.5428771921196665, 50.192198265255904, 2)
+547: onLinear5D(0.6181718045332301, -0.08661398268121434, -1.0836688223786242, -0.28723308171753537, 0.7891650721131254, 0.5428771921196665, 50.192198265255904, 2)
+549: onLinear5D(0.6285289328867995, -0.08733434470619743, -1.0771417218869126, -0.28723308171753537, 0.7891650721131254, 0.5428771921196665, 50.192198265255904, 2)
+551: onLinear5D(0.6376044581255574, -0.08950489243184488, -1.0691846566876089, -0.28723308171753537, 0.7891650721131254, 0.5428771921196665, 50.192198265255904, 2)
+553: onLinear5D(0.6450491251907949, -0.09304201039742296, -1.0601039711884626, -0.28723308171753537, 0.7891650721131254, 0.5428771921196665, 50.192198265255904, 2)
+555: onLinear5D(0.6505760808629314, -0.09780951841609685, -1.0502492736174365, -0.28723308171753537, 0.7891650721131254, 0.5428771921196665, 50.192198265255904, 2)
+557: onLinear5D(0.6539726632786548, -0.10362389050130769, -1.0399999768715207, -0.28723308171753537, 0.7891650721131254, 0.5428771921196665, 50.192198265255904, 2)
+559: onLinear5D(0.6539726632786548, -0.10362389050130769, -0.9490908881810707, -0.301496929516587, 0.8283545554740983, 0.47215286922497796, 50.192198265255904, 2)
+561: onLinear5D(0.6539726632786548, -0.10362389050130769, -0.8581817994906208, -0.3137283089799871, 0.8619599514414311, 0.3982456405984172, 50.192198265255904, 2)
+563: onLinear5D(0.6539726632786548, -0.10362389050130769, -0.7672727014136127, -0.32384478805424577, 0.8897547059755193, 0.3216537213285703, 50.192198265255904, 2)
+565: onLinear5D(0.6539726632786548, -0.10362389050130769, -0.676363622109721, -0.3317781702628536, 0.9115514202738199, 0.24289350327626075, 50.192198265255904, 2)
+567: onLinear5D(0.6539726632786548, -0.10362389050130769, -0.5854545052595964, -0.3374749444090229, 0.9272031844548353, 0.16249589728033045, 50.192198265255904, 2)
+569: onLinear5D(0.6539726632786548, -0.10362389050130769, -0.49454542595570483, -0.3408967470565801, 0.9366044767371785, 0.08100285181472283, 50.192198265255904, 2)
+571: onLinear5D(0.6539726632786548, -0.10362389050130769, -0.40363630910558024, -0.34202048986476297, 0.9396919232963424, -0.001036245283815392, 50.192198265255904, 2)
+573: onLinear5D(0.6539726632786548, -0.10362389050130769, -0.31272726734792156, -0.3408385871195552, 0.9364447156884155, -0.08306835733050105, 50.192198265255904, 2)
+575: onLinear5D(0.6539726632786548, -0.10362389050130769, -0.22181815049779696, -0.33735904760855184, 0.9268847290126606, -0.16454048778272604, 50.192198265255904, 2)
+577: onLinear5D(0.6539726632786548, -0.10362389050130769, -0.1309090336476724, -0.3316052848856237, 0.9110764250760133, -0.2449034150571117, 50.192198265255904, 2)
+579: onLinear5D(0.6539726632786548, -0.10362389050130769, -0.039999991890013686, -0.32361608982561874, 0.8891263669799672, -0.32361540437219877, 50.192198265255904, 2)
+581: onLinear5D(0.6512849537406381, -0.10016475606152392, -0.027808279503048875, -0.32361608982561874, 0.8891263669799672, -0.32361540437219877, 50.192198265255904, 2)
+583: onLinear5D(0.6461893291923944, -0.09777264801536019, -0.01614041215791477, -0.32361608982561874, 0.8891263669799672, -0.32361540437219877, 50.192198265255904, 2)
+585: onLinear5D(0.6389047592643677, -0.09655033040234423, -0.005497556971752737, -0.32361608982561874, 0.8891263669799672, -0.32361540437219877, 50.192198265255904, 2)
+587: onLinear5D(0.6297442293542577, -0.09655033040234423, 0.0036628227534256583, -0.32361608982561874, 0.8891263669799672, -0.32361540437219877, 50.192198265255904, 2)
+589: onLinear5D(0.6191015243530273, -0.09777264801536019, 0.010947392681452233, -0.32361608982561874, 0.8891263669799672, -0.32361540437219877, 50.192198265255904, 2)
+591: onLinear5D(0.6074335819154274, -0.10016479360775685, 0.01604301722969596, -0.32361608982561874, 0.8891263669799672, -0.32361540437219877, 50.192198265255904, 2)
+593: onLinear5D(0.5952419446209284, -0.10362392804754061, 0.018730801860178548, -0.32361608982561874, 0.8891263669799672, -0.32361540437219877, 50.192198265255904, 2)
+595: onLinear5D(0.44643150539848747, -0.10362392804754061, 0.018730801860178548, -0.24465300963303468, 0.9111360658190685, -0.3316262571649725, 50.192198265255904, 2)
+597: onLinear5D(0.29762106617604656, -0.10362392804754061, 0.018730801860178548, -0.1640302532983015, 0.9269648161034652, -0.33738747117989437, 50.192198265255904, 2)
+599: onLinear5D(0.14881062695360558, -0.10362392804754061, 0.018730801860178548, -0.0822947625093007, 0.9365052623479421, -0.34085989153631713, 50.192198265255904, 2)
+601: onLinear5D(1.877311646468996e-7, -0.10362392804754061, 0.018730801860178548, -9.936397827346749e-7, 0.9396926717130951, -0.3420200034028974, 50.192198265255904, 2)
+603: onMovement(MOVEMENT_LEAD_OUT /*lead out*/)
+603: onLinear5D(-0.004783352528970073, -0.10329847730050876, 0.019624927851158804, -0.01329231988801085, 0.9450250136711585, -0.3267277731810096, 50.19589882197342, 2)
+605: onLinear5D(-0.00883864605520654, -0.10237172363311287, 0.02217116318349763, -0.013657248463565908, 0.9528172531679975, -0.3032371376164153, 50.19589882197342, 2)
+607: onLinear5D(-0.01154832013948696, -0.10098472824246864, 0.025981880548432118, -0.016402507341916762, 0.9593077980536548, -0.2818856263564116, 50.19589882197342, 2)
+609: onLinear5D(-0.012499816774383304, -0.09934868868880384, 0.03047699064720334, -0.02224696808975844, 0.9648987093266079, -0.26167833909336025, 50.19589882197342, 2)
+611: onLinear5D(-0.013718755226435623, -0.09772237360946776, 0.03494521764319713, -0.02758624900663496, 0.9700388091514804, -0.24137876378364717, 50.19589882197342, 2)
+613: onLinear5D(-0.015173296290119802, -0.09441556423667848, 0.039775540509561856, -0.02758624900663496, 0.9700388091514804, -0.24137876378364717, 50.19589882197342, 2)
+615: onLinear5D(-0.01629104764442744, -0.0891437727635301, 0.042485177047609346, -0.02758624900663496, 0.9700388091514804, -0.24137876378364717, 50.19589882197342, 2)
+617: onLinear5D(-0.016811663710226223, -0.0831345732756487, 0.0424432003591943, -0.02758624900663496, 0.9700388091514804, -0.24137876378364717, 50.19589882197342, 2)
+619: onMovement(MOVEMENT_RAPID /*rapid*/)
+619: onRapid5D(-0.03203932694562777, 0.4523284369566309, -0.09079831791674997, -0.02758624900663496, 0.9700388091514804, -0.24137876378364717)
+621: onRapid5D(-0.03203932694562777, 0.6150000067207757, -0.09079831791674997, -0.02758624900663496, 0.9700388091514804, -0.24137876378364717)
+622: onSectionEnd()
+  STATE position=[-0.032039, 0.615, -0.090798]
+  STATE spindleSpeed=11999.1
+  STATE radiusCompensation=RADIUS_COMPENSATION_OFF // off
+622: onClose()
